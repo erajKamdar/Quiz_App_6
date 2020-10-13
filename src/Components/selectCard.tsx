@@ -1,11 +1,10 @@
-import React, { useState, useContext } from "react";
+import React from "react";
 import "../App.css";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
 import { selectPropsType } from "./../Types/types";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
-import { styled } from "@material-ui/core";
 const SelectCard: React.FC<selectPropsType> = ({
   questions,
   category,
