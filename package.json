@@ -3,17 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.67",
+    "@types/react": "^16.9.52",
+    "@types/react-dom": "^16.9.8",
+    "@wellyshen/use-web-animations": "^0.5.7",
+    "animate.css": "^4.1.1",
     "react": "^16.13.1",
+    "react-bootstrap-icons": "^1.0.0",
     "react-dom": "^16.13.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^3.11.0",
     "react-scripts": "3.4.3",
-    "typescript": "~3.7.2"
+    "react-typing-animation": "^1.6.2",
+    "typescript": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
